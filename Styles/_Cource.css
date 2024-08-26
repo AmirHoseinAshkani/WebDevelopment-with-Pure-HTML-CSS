@@ -1,0 +1,24 @@
+.Cource-Title span {
+  position: relative;
+  font-size: 15px;
+}
+
+.Cource-Title span::before {
+  content: "";
+  width: 40px;
+  height: 3px;
+  background-color: darkblue;
+  position: absolute;
+  top: 13px;
+  right: -50px;
+}
+  
+.Cource-Title span::after {
+  content: "";
+  width: 40px;
+  height: 3px;
+  background-color: darkblue;
+  position: absolute;
+  top: 13px;
+  right: 111px;
+}

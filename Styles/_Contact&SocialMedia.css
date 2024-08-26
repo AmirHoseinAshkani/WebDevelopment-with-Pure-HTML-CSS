@@ -1,0 +1,59 @@
+.Container-fluid-custom {
+  background-color: darkblue;
+  color: #efefef;
+  height: 40px;
+}
+
+.Container-fluid-custom .Contact {
+  font-size: 14px;
+}
+
+.Container-fluid-custom .Contact i {
+  color: orange;
+  vertical-align: -10px;
+}
+
+.Container-fluid-custom .Contact span {
+  color: #efefef;
+  margin: 6px;
+}
+
+.Container-fluid-custom .Social-Media {
+  direction: ltr;
+}
+
+.Container-fluid-custom .Social-Media i {
+  vertical-align: -12px;
+  margin-right: 6px;
+  font-size: 20px;
+}
+.Container-fluid-custom .Social-Media a {
+  color: #fff;
+}
+
+.Social-Media a .fa-facebook:hover {
+  font-size: 25px;
+  color: rgb(39, 75, 208);
+}
+
+.Social-Media a .fa-telegram:hover {
+  font-size: 25px;
+  color: rgb(10, 31, 191);
+}
+
+.Social-Media a .fa-x-twitter:hover {
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+}
+
+.Social-Media a .fa-instagram:hover {
+  font-size: 25px;
+  color: rgb(219, 51, 22);
+}
+
+.Social-Media a .fa-github:hover {
+  font-size: 25px;
+  color: rgb(37, 37, 37);
+}
+/* ---------------------------------------------Social-Media-------------------------------------------- */
+/* End */
