@@ -1,8 +1,11 @@
 @import url(../Library/CssLibrary.css);
 @import url(../Styles/_Contact&SocialMedia.css);
 @import url(../Styles/_NavBar.css);
-@import url(../Styles/CssReset.css);
+@import url(../Styles/_CssReset.css);
 @import url(../Styles/_Header.css);
 @import url(../Styles/_Cource.css);
-
-
+@import url(../Styles/_AboutUs.css);
+@import url(../Styles/_Teacher.css);
+@import url(../Styles/_Stat.css);
+@import url(../Styles/_Topic.css);
+@import url(../Styles/_FAQ.css);

@@ -1,0 +1,48 @@
+.Teacher-Section-Wrapper {
+  background-image: url(../Assets/Images/1920x1200-1l46cha0qzfg4n4d.jpg);
+}
+.Teacher-Intro {
+  background-color: #fff;
+  top: 95%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  height: auto;
+  box-shadow: -1px 3px 7px 1px #efefef;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.Teacher-Intro h3 span {
+  color: orange;
+}
+.Teacher-Intro h3 {
+  text-align: center;
+  margin: 30px 0 60px 0;
+}
+
+.Teacher-Intro a {
+  border: 1px solid #818181;
+  padding: 4px;
+  margin: 20px;
+  display: inline-block;
+  color: #000000; /* 
+  box-shadow: 2px 3px 5px black; */
+}
+
+.Teacher-Intro a:hover {
+  border: 1px solid orange;
+  padding: 4px;
+  margin: 20px;
+  display: inline-block;
+  color: orange;
+  border-radius: 10px;
+  box-shadow: 1px 1px 20px 7px orange;
+}
+
+@media screen and (max-width: 700px) {
+  .Teacher-Intro h3 {
+    text-align: center;
+    margin: 30px 0 50px 0;
+  }
+}

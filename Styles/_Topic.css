@@ -1,0 +1,93 @@
+.Topic-Wrapper .Card {
+  margin-top: 30px;
+  box-shadow: 1px 1px 1px 1px #4a4a4a;
+}
+.Topic-Section-bg {
+  background-image: url(../Assets/Images/1920x1200-1l46cha0qzfg4n4d.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.Topic-Wrapper .Card-Header {
+  overflow: hidden;
+}
+
+.Topic-Wrapper .Card-Header img {
+  transition: 0.5s ease;
+}
+
+.Topic-Wrapper:hover img {
+  transform: scale(1.2) rotate(10deg);
+}
+
+.Topic-Wrapper .Card-Body a {
+  font-size: 16px;
+  padding: 5px;
+}
+
+.Topic-Wrapper .Card-Body {
+  margin: 32px 10px;
+}
+
+.Topic-Wrapper .Card-Body .Post-Date {
+  top: -59px;
+  right: 20px;
+  width: 45px;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+}
+
+.Topic-Wrapper .Card-Body .Post-Date :first-child {
+  background-color: orange;
+}
+
+.Topic-Wrapper .Card-Body .Post-Date :last-child {
+  background-color: #c3c3c3;
+}
+
+.Topic-Wrapper .Card-Body p {
+  font-size: 16px;
+  margin-top: 15px;
+  line-height: 20px;
+  color: rgb(68, 68, 68);
+}
+
+.Topic-Wrapper .Card-Footer ul {
+  border-top: 1px solid #e9e9e9;
+}
+
+.Topic-Wrapper .Card-Footer ul li {
+  display: inline-block;
+}
+
+.Topic-Wrapper .Card-Footer ul li i,
+.Topic-Wrapper .Card-Footer ul li span {
+  font-size: 16px;
+  color: #6c0000;
+  margin: 0 7px;
+}
+
+.Topic-Title span {
+  font-size: 15px;
+  display: inline-block;
+}
+
+.Topic-Title span::before {
+  content: "";
+  width: 40px;
+  height: 3px;
+  background-color: darkblue;
+  position: absolute;
+  top: 10px;
+  right: -50px;
+}
+
+.Topic-Title span::after {
+  content: "";
+  width: 40px;
+  height: 3px;
+  background-color: darkblue;
+  position: absolute;
+  top: 10px;
+  right: 60px;
+}

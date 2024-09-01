@@ -532,6 +532,7 @@
   width: 100%;
   height: auto;
   margin: auto;
+  display: block;
 }
 
 .P-absolute {
@@ -544,4 +545,12 @@
 
 .Text-Center {
   text-align: center;
+}
+
+.M-20 {
+  margin: 20px;
+}
+
+.MT-190 {
+  margin-top: 190px;
 }
