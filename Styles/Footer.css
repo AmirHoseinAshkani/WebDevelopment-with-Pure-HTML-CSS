@@ -1,0 +1,158 @@
+.Footer-Section-Wrapper {
+  background-color: #041121;
+}
+.Copy-Right {
+  color: #fff;
+  text-align: center;
+  border-top: 1px dashed white;
+  padding-top: 10px;
+}
+
+.FirstColFooter {
+  padding: 10px;
+}
+
+.Copy-Right a {
+  font-size: 25px;
+  color: orange;
+  vertical-align: -5px;
+  cursor: pointer;
+}
+.FirstColFooter a {
+  font-size: 24px;
+  color: white;
+}
+
+.FirstColFooter a i {
+  color: darkmagenta;
+  font-size: 50px;
+  margin: 0px 7px 9px 9px;
+  transform: rotate(-126deg);
+  vertical-align: -4px;
+}
+.FirstColFooter p {
+  font-size: 16px;
+  color: #5d5d5d;
+  line-height: 55px;
+}
+
+.Services,
+.SMF,
+.Contact-US {
+  padding-top: 11px;
+  color: #5d5d5d;
+}
+
+.Services h6,
+.SMF h6,
+.Contact-US h6 {
+  font-size: 16px;
+  border-bottom: 1px solid #001633;
+}
+.Services ul,
+.SMF ul,
+.Contact-US ul {
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+.Services ul li {
+  margin-bottom: 17px;
+  list-style: none;
+  transition: 0.5s ease;
+}
+
+.Services ul li a {
+  color: #5d5d5d;
+  transition: 0.8s ease-in-out;
+}
+.Services ul li:hover {
+  color: rgb(193, 193, 0);
+  padding-right: 2px;
+}
+.Services ul li a:hover {
+  color: rgb(193, 193, 0);
+  right: 17px;
+}
+.Services ul li::before {
+  content: "\276f";
+  padding-left: 10px;
+  vertical-align: -1px;
+}
+.Services ul li {
+  color: #5d5d5d;
+  list-style: none;
+}
+.SMF ul {
+  text-align: center;
+}
+.SMF ul li {
+  display: inline;
+  padding-left: 10px;
+  font-size: 25px;
+}
+
+.SMF ul a {
+  color: #5d5d5d;
+  transition: 0.5s ease;
+}
+
+.SMF ul a .fa-facebook:hover {
+  font-size: 30px;
+  color: rgb(39, 75, 208);
+  transition: 0.5s ease-in-out;
+}
+
+.SMF ul li a .fa-telegram:hover {
+  font-size: 30px;
+  color: rgb(10, 31, 191);
+  transition: 0.5s ease-in-out;
+}
+
+.SMF ul li a .fa-x-twitter:hover {
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  transition: 0.5s ease-in-out;
+}
+
+.SMF ul li a .fa-instagram:hover {
+  font-size: 30px;
+  color: rgb(219, 51, 22);
+  transition: 0.5s ease-in-out;
+}
+
+.SMF ul li a .fa-github:hover {
+  font-size: 30px;
+  color: rgb(37, 37, 37);
+  transition: 0.5s ease-in-out;
+}
+
+.SMF form {
+  margin-top: 60px;
+}
+
+.SMF form input {
+  height: 40px;
+  width: 100%;
+  outline: none;
+}
+
+.SMF form button {
+  height: 38px;
+  width: 60px;
+  top: 1px;
+  left: 1px;
+  border: none;
+  outline: none;
+  background-color: orange;
+}
+.Contact-US ul li i {
+  padding-left: 7px;
+  vertical-align: 10px;
+}
+.Contact-US ul li span {
+  font-size: 16px;
+}
+.Contact-US ul li{
+  padding-bottom: 20px;
+}

@@ -25,7 +25,13 @@
 
 .FAQ-Section-bg {
   background-color: darkslategrey;
-  height: 500px;
+  height: 1000px;
+}
+@media only screen and (min-width: 768px) {
+  .FAQ-Section-bg {
+    background-color: darkslategrey;
+    height: 500px;
+  }
 }
 
 .Faq-Right-side {
@@ -53,4 +59,49 @@
   color: #ababab;
   margin-top: 10px;
   margin: 10px 47px 0 0;
+}
+
+.Faq-Left-side {
+  margin-top: 35px;
+}
+
+.Faq-Left-side .Tabs {
+  overflow: hidden;
+  box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
+}
+.Faq-Left-side .Tab {
+  color: #fff;
+  overflow: hidden;
+}
+.Faq-Left-side .Tab-Label {
+  padding: 16px;
+  background-color: #000067;
+  width: 100%;
+  cursor: pointer;
+  display: block;
+  font-size: 16px;
+}
+
+.Faq-Left-side .Tab-Label::after {
+  content: "\276f";
+  text-align: center;
+  transition: 0.4s ease-in-out;
+  float: left;
+  padding: 3px;
+}
+.Faq-Left-side .Tab-Content {
+  height: 0;
+  background-color: #ffffff;
+  transition: 0.5s ease;
+  color: black;
+}
+.Faq-Left-side input:checked ~ .Tab-Content {
+  height: 50px;
+  padding: 10px;
+}
+.Faq-Left-side input:checked + .Tab-Label::after {
+  transform: rotate(-90deg);
+}
+.Faq-Left-side input {
+  display: none;
 }

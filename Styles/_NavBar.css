@@ -3,8 +3,8 @@
   overflow: hidden;
   box-shadow: 1px 1px 1px #efefef;
   position: sticky;
-  top: 0px;
-  z-index: 999999;
+  top: 0;
+  z-index: 99999999999999999999999999999999999999999999999;
 }
 nav a {
   float: right;
@@ -30,16 +30,17 @@ nav a {
     display: block;
     float: left;
   }
+
 }
 
 Nav.responsive {
-position: relative;
+  position: relative;
 }
 
 .Nav.responsive a.Humberger-Icon {
-position: absolute;
-top: 0;
-left: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .Nav.responsive a {
